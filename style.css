@@ -5,3 +5,7 @@ body{
     background-color: yellowgreen;
     color: red;
 }
+input{
+    width: 120px;
+    height: 20px;
+}
