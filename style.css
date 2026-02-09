@@ -1,11 +1,24 @@
 body{
-    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 210, 213);
 }
 .container{
-    background-color: yellowgreen;
-    color: red;
+    border: 1px solid;
+    padding: 12px;
+    background-color: rgb(140, 224, 213);
+    color: black;
 }
 input{
     width: 120px;
     height: 20px;
+}
+
+button{
+    color: maroon;
+    background-color: aqua;
+    border: 2px solid moccasin;
+    border-radius: 7px;
 }

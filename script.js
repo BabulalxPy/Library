@@ -12,15 +12,17 @@ if (localStorage.getItem("myLibrary")) {
     display(); 
 }
 
-function books(title, author, pages, uid, read){
-    this.title = title;
-    this.author = author;
-    this.pages = pages;
-    this.uid = uid;
-    this.read = read;
-};
+class books{
+    constructor(title, author, pages, uid, read){
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+        this.uid = uid;
+        this.read = read;
+    }
+}
 
-function onclick(){
+const onclick = function(){
 
 
    const contenttitle = document.createElement("div");
